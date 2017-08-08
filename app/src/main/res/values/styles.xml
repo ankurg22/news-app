@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="SectionFrameStyle">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">@dimen/section_margin</item>
+        <item name="android:layout_marginLeft">@dimen/section_margin</item>
+        <item name="android:layout_marginTop">@dimen/section_margin</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="SectionTextStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/padiing_text_section</item>
+        <item name="android:textAppearance">?android:textAppearanceSmallInverse</item>
+    </style>
+
+    <style name="ContentLayoutStyle">
+        <item name="android:layout_marginBottom">@dimen/content_margin</item>
+        <item name="android:layout_marginLeft">@dimen/section_margin</item>
+        <item name="android:layout_marginRight">@dimen/section_margin</item>
+        <item name="android:layout_marginTop">@dimen/content_margin</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="TitleTextStyle">
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAppearance">?android:textAppearanceMediumInverse</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DateTextStyle">
+        <item name="android:textAppearance">?android:textAppearanceSmallInverse</item>
+    </style>
+
+    <dimen name="section_margin">15dp</dimen>
+    <dimen name="content_margin">8dp</dimen>
+</resources>

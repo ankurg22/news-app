@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="business">Business</string>
+    <string name="education">Education</string>
+    <string name="environment">Environment</string>
+    <string name="fashion">Fashion</string>
+    <string name="film">Film</string>
+    <string name="money">Money</string>
+    <string name="politics">Politics</string>
+    <string name="sport">Sport</string>
+    <string name="technology">Technology</string>
+    <string name="weather">Weather</string>
+    <string name="world">World</string>
+    <string name="home">Home</string>
+    <string name="no_internet">Internet connection not available or not working</string>
+    <string name="empty_text">No articles available for selected category</string>
+    <string name="setting_num_news">Select number of news to show</string>
+</resources>
